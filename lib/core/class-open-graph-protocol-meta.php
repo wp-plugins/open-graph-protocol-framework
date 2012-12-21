@@ -66,12 +66,12 @@ class Open_Graph_Protocol_Meta {
 		if ( post_type_supports( $post->post_type, 'thumbnail' ) && has_post_thumbnail() ) {
 			list( $src, $width, $height ) = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
 			if ( ! empty( $src ) ) {
-				$metas[] = self::render_meta( 'og:image', $src );
+				$metas['og:image'] = $src;
 				if ( ! empty( $width ) ) {
-					$metas[] = self::render_meta( 'og:image:width', intval( $width ) );
+					$metas['og:image:width'] = intval( $width );
 				}
 				if ( ! empty( $height ) ) {
-					$metas[] = self::render_meta( 'og:image:height', intval( $height ) );
+					$metas['og:image:height'] = intval( $height );
 				}
 			}
 		}
