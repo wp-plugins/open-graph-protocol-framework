@@ -4,7 +4,7 @@ Donate link: http://www.itthinx.com/plugins/open-graph-protocol/
 Tags: ogp, open, open graph, open graph protocol, share, sharing, social, social network, twitter, linkedlin, facebook, pinterest, affiliates, meta, meta tag, meta tags, tag, tags
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3
 
 The Open Graph Protocol enables any web page to become a rich object in a social graph. This plugin renders meta tags within an extension framework.
@@ -123,11 +123,19 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 
 == Changelog ==
 
+= 1.0.1 =
+
+* Fixed path.
+
 = 1.0.0 =
 
 * First public release.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+
+* Fixed path.
 
 = 1.0.0 =
 
