@@ -123,6 +123,10 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 
 == Changelog ==
 
+= 1.0.2 =
+
+* Paths.
+
 = 1.0.1 =
 
 * Fixed path.
@@ -133,10 +137,6 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-
-* Fixed path.
-
-= 1.0.0 =
+= 1.0.2 =
 
 * First public release.
