@@ -123,6 +123,10 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 
 == Changelog ==
 
+= 1.0.4 =
+
+* Using $_SERVER to determine current URL
+
 = 1.0.3 =
 
 * Fixed image metadata.
@@ -140,6 +144,10 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 * First public release.
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+
+* Fixes circular redirect issue for og:url
 
 = 1.0.3 =
 
