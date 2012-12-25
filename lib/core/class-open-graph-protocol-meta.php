@@ -36,8 +36,9 @@ class Open_Graph_Protocol_Meta {
 	 */
 	public static function wp_head() {
 
-		global $post, $wp;
-		$current_url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
+		global $post;
+		$current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
 		$metas = array();
 
 		//
