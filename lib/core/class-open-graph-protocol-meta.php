@@ -85,7 +85,7 @@ class Open_Graph_Protocol_Meta {
 		//
 
 		// site_name
-		$metas['og:site:name'] = get_bloginfo( 'name' );
+		$metas['og:site_name'] = get_bloginfo( 'name' );
 
 		// description
 		$description = '';

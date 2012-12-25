@@ -126,6 +126,7 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 = 1.0.4 =
 
 * Using $_SERVER to determine current URL
+* Fixed wrong tag used for og:site_name
 
 = 1.0.3 =
 
@@ -147,7 +148,7 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 
 = 1.0.4 =
 
-* Fixes circular redirect issue for og:url
+* Fixes circular redirect issue for og:url, corrects tag og:site_name
 
 = 1.0.3 =
 
