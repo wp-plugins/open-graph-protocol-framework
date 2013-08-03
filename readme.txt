@@ -23,7 +23,7 @@ Install and activate the plugin. It will automatically render the following meta
 - `og:type` : The type will be `article` in general, `website` for the front page and `blog` for the blog homepage.
 - `og:image` : For post types that support featured images, the URL of the featured image is used. Additional metadata `og:image:width` and `og:image:height` is added.
 - `og:url` : The URL of the current page.
-- `og:site:name` : The name of the site.
+- `og:site_name` : The name of the site.
 - `og:description` : Uses the full excerpt if available, otherwise derives it from the content. For author and archive pages, the type of page and title is used.
 
 ### Filters ###
