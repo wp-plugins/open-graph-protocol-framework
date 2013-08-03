@@ -104,6 +104,11 @@ class Open_Graph_Protocol_Meta {
 				// compact whitespace.
 				$description = wp_trim_words( wp_strip_all_tags( $post->post_content, true ), $excerpt_length, ' &hellip;' );
 			}
+		} else if ( is_home() ) {
+			$description = get_bloginfo( 'description' );
+			if ( empty( $description ) ) {
+				$description = get_bloginfo( 'name' );
+			}
 		} else {
 			$what = '';
 			if ( is_author() ) {

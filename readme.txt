@@ -3,7 +3,7 @@ Contributors: itthinx
 Donate link: http://www.itthinx.com/plugins/open-graph-protocol/
 Tags: ogp, open, open graph, open graph protocol, share, sharing, social, social network, twitter, linkedlin, facebook, pinterest, affiliates, meta, meta tag, meta tags, tag, tags
 Requires at least: 3.3
-Tested up to: 3.5
+Tested up to: 3.6
 Stable tag: 1.0.4
 License: GPLv3
 
@@ -123,6 +123,11 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 
 == Changelog ==
 
+= 1.0.5 =
+
+* Using site description for og:description on home (thanks for the suggestion [Marc](http://www.beyondred.de/)).
+* WordPress 3.6 compatibility checked.
+
 = 1.0.4 =
 
 * Using $_SERVER to determine current URL
@@ -145,6 +150,9 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 * First public release.
 
 == Upgrade Notice ==
+
+= 1.0.5 =
+* Using site description for og:description on home. WordPress 3.6 compatibility checked.
 
 = 1.0.4 =
 
