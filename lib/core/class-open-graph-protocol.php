@@ -48,7 +48,7 @@ class Open_Graph_Protocol {
 			self::setup();
 		}
 	}
-	
+
 	/**
 	 * Triggers clean-up routines.
 	 */
