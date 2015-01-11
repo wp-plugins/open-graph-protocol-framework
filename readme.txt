@@ -3,7 +3,7 @@ Contributors: itthinx
 Donate link: http://www.itthinx.com/plugins/open-graph-protocol/
 Tags: ogp, open, open graph, open graph protocol, share, sharing, social, social network, twitter, linkedlin, facebook, pinterest, affiliates, meta, meta tag, meta tags, tag, tags
 Requires at least: 3.3
-Tested up to: 3.8.3
+Tested up to: 4.1
 Stable tag: 1.0.7
 License: GPLv3
 
@@ -125,6 +125,10 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 
 == Changelog ==
 
+= 1.0.8 =
+* Fixed static method declaration.
+* WordPress 4.1 compatible.
+
 = 1.0.7 =
 * Fixed a bug producing PHP Notices when a 404 is returned.
 
@@ -159,6 +163,10 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 * First public release.
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+* Fixed static method declaration.
+* WordPress 4.1 compatible.
 
 = 1.0.7 =
 * Fixed an issue with 404 pages.
