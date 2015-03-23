@@ -96,6 +96,10 @@ None of the existing plugins provided a sufficiently flexible way of doing that,
 - must not ask to provide your Facebook account details or application ID when there is no need for it
 - must not be bloated with features you don't want or need when you simply want Open Graph metatags to be rendered automatically for your pages
 
+### Logo Attribution ###
+
+The logo used for this plugin's icon and banner is the [Open Graph protocol logo](http://commons.wikimedia.org/wiki/File:Open_Graph_protocol_logo.png#/media/File:Open_Graph_protocol_logo.png) by Facebook - [ogp.me](http://ogp.me). Licensed under Public Domain via [Wikimedia Commons](http://commons.wikimedia.org/wiki/).
+
 == Installation ==
 
 See also the [Open Graph Protocol](http://www.itthinx.com/plugin/open-graph-protocol/) plugin pages and [documentation](http://www.itthinx.com/documentation/open-graph-protocol/).
